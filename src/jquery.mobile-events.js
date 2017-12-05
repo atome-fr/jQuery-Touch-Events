@@ -29,8 +29,7 @@
 
 (function ($) {
     var MobileDevice = require('ismobilejs');
-    console.log(MobileDevice)
-
+    
     $.attrFn = $.attrFn || {};
 
     var supportsTouchEvents = 'ontouchstart' in window,
